@@ -1,4 +1,4 @@
-# P.A.M - Panel de Administración Municipal (Backend API)
+# arboladoMun - Panel de Administración Municipal (Backend API)
 
 [![Django](https://img.shields.io/badge/Django-4.2+-092E20?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![Django REST Framework](https://img.shields.io/badge/DRF-3.14+-red?style=flat)](https://www.django-rest-framework.org/)
@@ -9,7 +9,7 @@
 
 ## 📋 Descripción
 
-**P.A.M Backend** es una API REST desarrollada con Django y Django REST Framework que proporciona servicios backend para el sistema de gestión de arbolado urbano municipal. Este proyecto forma parte de un sistema completo que permite a las autoridades municipales registrar, monitorear y gestionar el arbolado público de la ciudad.
+**arboladoMun Backend** (ex P.A.M Backend) es una API REST desarrollada con Django y Django REST Framework que proporciona servicios backend para el sistema de gestión de arbolado urbano municipal. Este proyecto forma parte de un sistema completo que permite a las autoridades municipales registrar, monitorear y gestionar el arbolado público de la ciudad.
 
 ## 🎯 Propósito del Proyecto
 
@@ -59,8 +59,8 @@ Este proyecto fue creado como una solución práctica para:
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/neocizee/P.A.M.git
-cd P.A.M
+git clone https://github.com/neocizee/arboladoMun.git
+cd arboladoMun
 ```
 
 2. **Crear entorno virtual**
@@ -167,7 +167,7 @@ Authorization: Token YOUR_TOKEN_HERE
 ## 📊 Estructura del Proyecto
 
 ```
-P.A.M/
+arboladoMun/
 ├── arbolado/              # Configuración principal del proyecto Django
 │   ├── settings.py        # Configuración de Django
 │   ├── urls.py            # URLs principales
